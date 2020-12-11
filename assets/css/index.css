@@ -26,6 +26,7 @@ ul {
   li a:hover {
     background-color:black;
     color: white;
+    text-decoration: none;
   }
 
   .header {
@@ -34,7 +35,7 @@ ul {
   }
 
   .largeimage {
-      height: 485px;
+      height: 500px;
       background-color: black;
   }
 
@@ -51,4 +52,14 @@ ul {
       border-color: white;
       border-width: 30px;
   }
+
+.space {
+  height: 200px;
+}
+
+.color {
+  height: 65px;
+  width: 175px;
+  background-color: black;
+}
 
