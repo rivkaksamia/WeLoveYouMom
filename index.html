@@ -12,35 +12,56 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+
+    <style>
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:inherit
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:black;
+  }
+    </style>
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #EEF7F8;">
-        <a class="navbar-brand" href="logo.html"> <img width="50px" height="auto" src="assets/image/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="index.html">Projects </a>
-                <a class="nav-link active" href="#">About <span class="sr-only">(current)</span> </a>
-                <a class="nav-link" href="resumetest.html">Resume </a>
-
-            </div>
-        </div>
-    </nav>
-
-
-    <div class="container-fluid"> 
+ 
         <!-- logo -->
         <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6"></div>
-            <div class="col-lg-3"></div>
+            <div class="col-3"></div>
+            <div class="col-6"> <img width=700px height="auto" src="assets/images/logo.png"> </div>
+            <div class="col-3"></div>
         </div>
+        
+        <!-- navigation -->
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+
+
         <!-- lg image -->
+        <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12"></div>
         </div>
